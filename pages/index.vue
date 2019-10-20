@@ -1,26 +1,22 @@
 <template>
   <div class="container">
+    <date></date>
     <div class="box"></div>
   </div>
 </template>
 
 <script>
-
+  import Date from '~/components/Date.vue'
   export default {
-    components: {}
+    components: {Date}
   }
 </script>
 
 <style>
   .container {
     position: relative;
-
     margin: 0 auto;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     background: linear-gradient(to bottom, #99DCBD 0%, #DAE9A8 60%, #2FCEFF 100%);
   }
 
@@ -28,7 +24,7 @@
     transform: scale(2);
     left: 10%;
     position: absolute;
-    top: 15%;
+    bottom: 45%;
   }
 
   .box:before {
@@ -74,7 +70,7 @@
     height: 3px;
     background: #eaeaea;
     border-radius: 100%;
-    -webkit-animation: shadow .8s infinite;
+    -webkit-animation: shadow 1s infinite;
   }
 
   @-webkit-keyframes shadow {
