@@ -30,8 +30,6 @@
 </template>
 
 <script>
-  const firstWechat = new Date('2019/09/17 08:46').getTime(),
-    firstDate = new Date('2019/10/19 11:55').getTime()
   export default {
     name: 'Date',
     data () {
@@ -41,8 +39,8 @@
         spaceCount: 0,
         currentDay: 0,
         time: {
-          h: '11',
-          m: '55',
+          h: '00',
+          m: '00',
           s: '00'
         }
       }

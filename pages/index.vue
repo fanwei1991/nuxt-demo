@@ -35,7 +35,7 @@
     left: 50px;
     width: 50px;
     height: 50px;
-    background: url("../static/img/WechatIMG200.jpeg") no-repeat 0 0/ contain;
+    background: #f60;
     border-radius: 2px;
     transform: rotate(45deg);
     -webkit-animation: box 1s infinite;
